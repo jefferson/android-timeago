@@ -7,7 +7,7 @@ import android.content.res.Resources;
 
 public class TimeAgo {
 
-	protected Context context;
+	private final Context context;
 
 	public TimeAgo(Context context) {
 		this.context = context;
@@ -18,6 +18,7 @@ public class TimeAgo {
 	}
 
 	public String timeAgo(long millis) {
+
 		long diff = new Date().getTime() - millis;
 
 		Resources r = context.getResources();

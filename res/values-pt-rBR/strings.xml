@@ -1,0 +1,20 @@
+<resources>
+
+    <!--// Brazilian Portuguese-->
+    <!-- Based on https://github.com/rmm5t/jquery-timeago/blob/master/locales/jquery.timeago.pt-br.js -->
+    <!---->
+    <string name="time_ago_prefix"></string>
+    <string name="time_ago_suffix">há</string>
+    <string name="time_ago_seconds">alguns segundos</string>
+    <string name="time_ago_minute">um mintuo</string>
+    <string name="time_ago_minutes">%d mintuos</string>
+    <string name="time_ago_hour">uma hora</string>
+    <string name="time_ago_hours">%d horas</string>
+    <string name="time_ago_day">um dia</string>
+    <string name="time_ago_days">%d dias</string>
+    <string name="time_ago_month">um mês</string>
+    <string name="time_ago_months">%d meses</string>
+    <string name="time_ago_year">um ano</string>
+    <string name="time_ago_years">%d anos</string>
+
+</resources>
